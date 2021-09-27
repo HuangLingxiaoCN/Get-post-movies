@@ -18,6 +18,7 @@ function AddMovie(props) {
       releaseDate: releaseDateRef.current.value,
     };
 
+    console.log("From AddMovie.js ", movie.releaseDate);
     props.onAddMovie(movie);
   }
 

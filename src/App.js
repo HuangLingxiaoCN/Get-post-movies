@@ -22,7 +22,7 @@ function App() {
 
       const loadedMovies = [];
 
-      for (const key in data) {
+      for (const key in data) { 
         loadedMovies.push({
           id: key,
           title: data[key].title,
